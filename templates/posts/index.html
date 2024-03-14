@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <title>Главная страница</title>
-</head>
-<body>
-  <h1>Главная страница</h1>
-</body>
-</html>
+{% extends "base.html" %}
+
+{% block title %}Главная страница{% endblock title %}
+
+{% block content %}
+  <h1>Главная страница работает</h1>
+  {% include "includes/header.html" %}
+{% endblock content %}
