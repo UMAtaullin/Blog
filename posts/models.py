@@ -11,8 +11,8 @@ class Group(models.Model):
     description = models.TextField()
 
     class Meta:
-        verbose_name = 'Группы по интересам'
-        verbose_name_plural = 'Группы по интересам'
+        verbose_name = 'Сообщества по интересам'
+        verbose_name_plural = 'Сообщества по интересам'
 
     def __str__(self):
         return self.title
