@@ -1,3 +1,11 @@
-{% block content %}
-  Блок встрен при помощи инклуд
-{% endblock content %}
+{% load static %}
+<header>
+  <nav class="navbar navbar-light">
+    <div class="container">
+      <a class="navbar-brand" href="{% url 'group_posts:index' %}">
+        <img src="{% static 'img/logo.png' %}" width="35" height="35" class="d-inline-block align-top" alt="">
+        <span style="color:green">UM</span>Blog
+      <a/>
+    </div>
+  </nav>
+</header>
