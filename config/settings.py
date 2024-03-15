@@ -26,7 +26,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-
+    # service apps
+    'core.apps.CoreConfig',
     # local apps
     'posts.apps.PostsConfig',
 ]
